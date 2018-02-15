@@ -11,9 +11,9 @@ def second_challenge
   groceries.each{
     |key, value|
 
-    value.each do{
+    value.each{
       |value|
-      puts ("#{value}")
+      puts ("value: #{value}")
     }
 
   }

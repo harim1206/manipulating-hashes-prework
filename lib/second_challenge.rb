@@ -13,7 +13,7 @@ def second_challenge
 
     value.each{
       |value|
-      puts ("value: #{value}")
+      value
     }
 
   }

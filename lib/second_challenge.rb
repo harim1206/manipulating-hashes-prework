@@ -11,11 +11,7 @@ def second_challenge
   groceries.each{
     |key, value|
 
-    value.each{
-      |value|
-      return value
-    }
-
+    key.values
   }
 
 

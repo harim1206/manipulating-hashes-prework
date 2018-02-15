@@ -11,7 +11,7 @@ def second_challenge
   groceries.each{ |key|
 
     key.values
-    binding.pry
+  
 
   }
 

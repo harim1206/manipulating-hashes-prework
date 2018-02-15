@@ -9,8 +9,13 @@ def second_challenge
   #code your solution here!
 
   groceries.each{
-    |key, values|
-    puts ("#{values}")
+    |key, value|
+
+    value.each do{
+      |value|
+      puts ("#{value}")
+    }
+    
   }
 
 

@@ -8,6 +8,11 @@ def second_challenge
 
   #code your solution here!
 
+  groceries.each{
+    |key, values|
+    puts values
+  }
+
   
 
 end

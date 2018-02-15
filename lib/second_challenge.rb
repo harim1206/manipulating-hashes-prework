@@ -15,7 +15,7 @@ def second_challenge
       |value|
       puts ("#{value}")
     }
-    
+
   }
 
 

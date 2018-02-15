@@ -8,6 +8,12 @@ def second_challenge
 
   #code your solution here!
 
-  
+  array = []
 
+  groceries.values.each{
+    |value|
+    array.concat(value)
+  }
+
+  array
 end

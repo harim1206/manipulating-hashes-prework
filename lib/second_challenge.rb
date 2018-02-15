@@ -13,6 +13,6 @@ def second_challenge
     puts values
   }
 
-  
+
 
 end
